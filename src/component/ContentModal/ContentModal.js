@@ -77,7 +77,7 @@ const TransitionsModal = ({ children, media_type, id }) => {
                       ? `${img_500}/${content.poster_path}`
                       : unavailable
                   }
-                  alt={content.name || content.title}
+                  alt="title"
                   className="ContentModal__portrait"
                 />
                 <img
@@ -86,7 +86,7 @@ const TransitionsModal = ({ children, media_type, id }) => {
                       ? `${img_500}/${content.backdrop_path}`
                       : unavailableLandscape
                   }
-                  alt={content.name || content.title}
+                  alt="title"
                   className="ContentModal__landscape"
                 />
                 <div className="ContentModal__about">
